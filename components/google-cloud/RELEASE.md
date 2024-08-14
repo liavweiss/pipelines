@@ -1,5 +1,6 @@
 ## Upcoming release
-* Bump image for Structured Data pipelines.
+* Fix to model batch explanation component for Structured Data pipelines; image bump.
+* Add dynamic support for boot_disk_type, boot_disk_size in `preview.custom_job.utils.create_custom_training_job_from_component`.
 
 ## Release 2.16.0
 * Updated the Starry Net pipeline's template gallery description, and added dataprep_nan_threshold and dataprep_zero_threshold args to the Starry Net pipeline.
@@ -10,7 +11,6 @@
 * Bump image for Structured Data pipelines.
 * Add check that component in preview.custom_job.utils.create_custom_training_job_from_component doesn't have any parameters that share names with any custom job fields
 * Add dynamic machine spec support for `preview.custom_job.utils.create_custom_training_job_from_component`.
-* Add preflight validations for LLM text generation pipeline.
 * Apply latest GCPC image vulnerability resolutions (base OS and software updates).
 
 ## Release 2.15.0
